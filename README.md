@@ -66,9 +66,7 @@ Estrutura de Pastas:
   │
   ├── index.html      # Estrutura principal
   ├── style.css       # Estilos visuais
-  ├── main.js         # Lógica e integração
-  ├── .gitignore      # Arquivos ignorados pelo Git
-  └── README.md       # Documentação do projeto
+  └── main.js         # Lógica e integração
 ```
 ---
 
