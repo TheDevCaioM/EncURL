@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encurtador de URL | TheDevCaioM</title>
+
+  <!-- Meta -->
+  <meta name="description" content="Encurte suas URLs de forma rápida e profissional. Desenvolvido por Caio Melo | Caio.">
+  <meta name="author" content="TheDevCaioM">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="simon_store1.png" type="image/png">
+
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        Caio<span class="logo-enc">Link</span>
+      </a>
+
+      <nav class="nav">
+        <a href="https://github.com/TheDevCaioM" target="_blank" class="nav-item">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/caio-melo-930433362/" target="_blank" class="nav-item">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:caiomelomorais.c.js@gmail.com" class="nav-item">
+          <i class="fas fa-envelope"></i> Contato
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="url-box">
+      <h1>Encurtador de URL</h1>
+      <p class="subtitle">Cole o link abaixo e obtenha uma versão curta e elegante!</p>
+
+      <form id="shortenForm">
+        <input type="url" id="urlInput" placeholder="https://exemplo.com/meu-link" required>
+        <input type="text" id="customName" placeholder="Nome personalizado (opcional)">
+        <button type="submit" id="shortenBtn">
+          <span class="btn-text">Encurtar</span>
+          <span class="btn-loader"></span>
+        </button>
+      </form>
+
+      <div id="resultContainer" class="result-container hidden">
+        <input type="text" id="shortUrl" readonly>
+        <div class="result-actions">
+          <button id="copyBtn">Copiar</button>
+          <button id="newBtn">Novo Link</button>
+        </div>
+        <img id="qrCode" alt="QR Code">
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>Desenvolvido por <a href="https://github.com/TheDevCaioM" target="_blank" class="link">Caio Melo</a></p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
