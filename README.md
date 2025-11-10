@@ -70,8 +70,12 @@ Estrutura de Pastas:
 ```
 ---
 
-Autor:  
-Desenvolvido com 💙 por Caio Melo  
+### 💬 Contato
+
 📧 **E-mail:** [caiomelomorais.c.js@gmail.com](mailto:caiomelomorais.c.js@gmail.com)  
 💼 **LinkedIn:** [linkedin.com/in/caio-melo-930433362](https://www.linkedin.com/in/caio-melo-930433362/)  
 🌐 **GitHub:** [github.com/TheDevCaioM](https://github.com/TheDevCaioM)
+
+<div align="center">
+⭐️ Não esqueça de dar uma estrela se este projeto te ajudou! ⭐️
+</div>
